@@ -436,3 +436,92 @@
     background-color: #009087;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
+
+/* VOTE - CSS */
+.vote-star {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #009087;
+}
+
+.vote-star:hover .title {
+    color: black;
+}
+
+.vote-star:hover .star {
+    color: goldenrod;
+}
+
+.vote-star .title {
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    width: 500px;
+    border-bottom: solid 2px #ccc;
+    color: white;
+    transition: color 0.3s;
+}
+
+.vote-star .star {
+    display: flex;
+    color: black;
+    margin-bottom: 12px;
+    transition: color 0.3s;
+}
+
+.vote-star .star .ti-star {
+    padding: 3px;
+}
+
+.vote {
+    background-image: url(http://127.0.0.1:5500/public/assets/img/rate-backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vote-slide {
+    display: flex;
+}
+
+.vote .vote-person img {
+    width: 125px;
+    height: 120px;
+    margin-top: 90px;
+    border: solid 5px white;
+    border-radius: 125%;
+}
+
+.vote .vote-comment {
+    color: white;
+    font-style: italic;
+    margin-top: 32px;
+    padding: 5px;
+    text-align: center;
+}
+
+.vote .vote-infor {
+    text-align: center;
+    border-bottom: solid 1px white;
+    width: 200px;
+    margin-bottom: 32px;
+}
+
+.vote .vote-infor .name {
+    color: white;
+    margin-top: 32px;
+    padding: 5px;
+}
+
+.vote .vote-infor .job {
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    margin-bottom: 32px;
+}
