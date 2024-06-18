@@ -269,7 +269,7 @@
 .products-man {
     width: 85%;
     height: auto;
-    margin-left: 108px;
+    margin-left: 8%;
     margin-top: 32px;
     display: flex;
     flex-direction: column;
@@ -308,7 +308,7 @@
 }
 
 .products-man .perfume .perfume-img {
-    width: 255px;
+    width: 255.5px;
     height: 255px;
 }
 
@@ -557,7 +557,7 @@
     color: white;
     position: absolute;
     top: calc(264px/2 - 40px);
-    left: calc(1531px/2 - 347px/2);
+    left: calc(39%);
     opacity: 0.2;
     text-align: center;
     transition: color 0.3s;
@@ -592,7 +592,7 @@
     display: block;
     position: absolute;
     top: 32px;
-    left: 738px;
+    left: 49%;
     transition: transform 0.3s;
     color: black;
 }
@@ -600,7 +600,7 @@
 .footer-roll p {
     position: absolute;
     top: 48px;
-    left: 702px;
+    left: 706px;
     color: #347a9a;
     transition: color 0.3s;
 }
@@ -618,12 +618,25 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: 64px;
+    margin-top: 132px;
 }
 
 .footer-all .title {
     font-size: 13px;
     color: whitesmoke;
+}
+
+.footer-pay .img {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-pay .img img {
+    padding: 8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 125%;
 }
 
 .footer-connect .icon {
@@ -646,19 +659,19 @@
     transform: scale(1.2);
 }
 
-.footer-connect .icon .ti-facebook:hover {
+.footer-connect .icon .ti-facebook {
     color: rgb(0, 157, 255);
 }
 
-.footer-connect .icon .ti-instagram:hover {
+.footer-connect .icon .ti-instagram {
     color: rgb(152, 10, 105);
 }
 
-.footer-connect .icon .ti-youtube:hover {
+.footer-connect .icon .ti-youtube {
     color: red;
 }
 
-.footer-connect .icon .ti-google:hover {
+.footer-connect .icon .ti-google {
     color: yellowgreen;
 }
 
