@@ -1,0 +1,82 @@
+.payment-content{
+    display: flex;
+}
+.payment{
+    padding: 100px 0;
+}
+.payment-top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-top{
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.payment-top-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.payment-top-item i{
+    color: #dddddd;
+}
+.payment-top-payment{
+    border: 1px solid #0DB7EA;
+}
+.payment-top-payment i{
+    color: #0DB7EA;
+}
+.payment-content-left{
+    padding-left: 50px;
+    width: 60%;
+}
+.payment-content-left-method-payment-item{
+    padding-left: 20px;
+}
+.payment-content-left-method-delivery-item{
+    padding-left: 20px;
+}
+.payment-content-left-method-payment-item-img{
+    padding-left: 40px;
+}
+.hoantat button{
+    height: 35px;
+    border: 2px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 850px;
+}
+.hoantat button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.payment-content-left-method-delivery p{
+    padding-bottom: 7px;
+}
+.payment-content-left-method-delivery-item{
+    padding-bottom: 7px;
+}
+.payment-content-left-method-payment p{
+    padding-bottom: 7px;
+}
+.payment-content-left-method-payment-item{
+    padding-bottom: 7px;
+}
+.payment-content-left-method-payment-item-img{
+    padding-bottom: 7px;
+}
+
